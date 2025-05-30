@@ -1,5 +1,10 @@
 # usdshe
 
+[![crates.io](https://img.shields.io/crates/v/usdshe.svg)](https://crates.io/crates/usdshe)
+[![crates.io downloads](https://img.shields.io/crates/d/usdshe.svg)](https://crates.io/crates/usdshe)
+[![docs.rs](https://img.shields.io/docsrs/usdshe)](https://docs.rs/usdshe)
+[![License: MIT](https://img.shields.io/crates/l/usdshe.svg)](https://opensource.org/licenses/MIT)
+
 A Rust crate for conveniently accessing USDC contract addresses on various blockchain networks.
 
 `usdshe` provides a simple trait, `Usdc`, which can be implemented for different chain identifiers to retrieve the respective USDC contract address. Currently, it offers an implementation for `alloy_chains::NamedChain`.
