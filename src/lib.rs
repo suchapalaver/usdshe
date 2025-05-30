@@ -45,11 +45,12 @@
 
 mod address;
 
-use address::*;
 use alloy_chains::NamedChain;
 use alloy_primitives::Address;
 use std::str::FromStr;
 use thiserror::Error;
+
+pub use address::*;
 
 /// Represents errors that can occur when retrieving a USDC address.
 #[derive(Error, Debug)]
