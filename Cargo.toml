@@ -7,7 +7,7 @@ description = "A utility crate to easily retrieve USDC contract addresses for va
 readme = "README.md"
 repository = "https://github.com/suchapalaver/usdshe"
 license = "MIT"
-keywords = ["usdc", "crypto", "blockchain", "address", "contract", "alloy"]
+keywords = ["usdc", "crypto", "blockchain", "alloy", "ethereum"]
 categories = ["cryptography::cryptocurrencies", "development-tools::testing"]
 
 [dependencies]
