@@ -1,0 +1,1 @@
+pub const USDC: &str = "0x29219dd400f2Bf60E5a23d13Be72B486D4038894";
