@@ -152,6 +152,7 @@ impl Usdc for NamedChain {
             Polygon => Ok(POLYGON_USDC),
             Scroll => Ok(SCROLL_USDC),
             Sonic => Ok(SONIC_USDC),
+            Unichain => Ok(UNICHAIN_USDC),
             ZkSync => Ok(ZKSYNC_USDC),
             unsupported_chain => Err(UsdcError::UnsupportedChain(*unsupported_chain)),
         }?;

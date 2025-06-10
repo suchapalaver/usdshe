@@ -7,6 +7,7 @@ mod mode;
 mod polygon;
 mod scroll;
 mod sonic;
+mod unichain;
 
 pub use arbitrum::USDC as ARBITRUM_USDC;
 pub use arbitrum_sepolia::USDC as ARBITRUM_SEPOLIA_USDC;
@@ -17,6 +18,7 @@ pub use mode::USDC as MODE_USDC;
 pub use polygon::USDC as POLYGON_USDC;
 pub use scroll::USDC as SCROLL_USDC;
 pub use sonic::USDC as SONIC_USDC;
+pub use unichain::USDC as UNICHAIN_USDC;
 
 /// <https://debank.com/token/avax/0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e/overview>
 pub const AVALANCHE_USDC: &str = "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e";

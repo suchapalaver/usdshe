@@ -81,6 +81,7 @@ The `Usdc` trait is implemented for the following `NamedChain` variants:
 * Polygon
 * Scroll
 * Sonic
+* Unichain
 * ZkSync
 
 If you attempt to get the USDC address for an unsupported chain using the `NamedChain` implementation, the `usdc_address` method will return an `Err(UsdcError::UnsupportedChain(chain_name))`. If a known address string fails to parse (which should be rare for correctly defined constants), it will return `Err(UsdcError::AddressParseError { .. })`.
