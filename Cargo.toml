@@ -12,5 +12,5 @@ categories = ["cryptography::cryptocurrencies", "development-tools::testing"]
 
 [dependencies]
 alloy-chains = "0.2.2"
-alloy-primitives = "1.1.2"
+alloy-primitives = "1.4.0"
 thiserror = "2.0"
