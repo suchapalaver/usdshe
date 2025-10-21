@@ -140,6 +140,7 @@ impl Usdc for NamedChain {
             Avalanche => Ok(AVALANCHE_USDC),
             Base => Ok(BASE_USDC),
             BaseSepolia => Ok(BASE_SEPOLIA_USDC),
+            Berachain => Ok(BERACHAIN_USDC),
             BinanceSmartChain => Ok(BSC_USDC),
             Fantom => Ok(FANTOM_USDC),
             Fraxtal => Ok(FRAXTAL_USDC),

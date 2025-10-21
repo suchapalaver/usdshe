@@ -1,6 +1,7 @@
 mod arbitrum;
 mod arbitrum_sepolia;
 mod base;
+mod berachain;
 mod bsc;
 mod ethereum;
 mod mode;
@@ -12,6 +13,7 @@ mod unichain;
 pub use arbitrum::USDC as ARBITRUM_USDC;
 pub use arbitrum_sepolia::USDC as ARBITRUM_SEPOLIA_USDC;
 pub use base::USDC as BASE_USDC;
+pub use berachain::USDC as BERACHAIN_USDC;
 pub use bsc::USDC as BSC_USDC;
 pub use ethereum::USDC as ETHEREUM_USDC;
 pub use mode::USDC as MODE_USDC;
